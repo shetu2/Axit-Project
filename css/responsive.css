@@ -1,0 +1,409 @@
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  .banner{
+    display: flex;
+    width: auto;
+    height: auto;
+  }
+  .banner.col-md-8{
+    display: flex;
+    width: auto;
+    height: auto;
+} .banner-content {
+    height: 46vh;
+    display: table-cell!important;
+    vertical-align: middle!important;
+}
+    .banner .col-md-4{
+  display: flex;
+    width: 63.3333333333%;
+      
+   
+    /* margin-left: 130px; */
+    margin: 15px 0px;
+}
+.banner-form {
+  width: 400px;
+  height: auto;
+  margin: 20px 40px;
+}
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  .banner{
+  width: auto;
+  height: auto;
+  }
+  .banner-content{
+    height: auto;
+    text-align: center;
+   padding-top: 60px;
+  }
+  .banner-content h1{
+    text-align: center;
+    margin-top: 30px;}
+
+  .line{
+    text-align:left;
+    margin: 20px auto;
+  }
+  .title{
+    width: auto;
+    margin: 6px auto;
+    text-align: center;
+    line-height: 27px;
+    font-size: 20px;
+  }
+  .banner .col-md-7{
+       flex: 0 0 auto;
+    width: 60%;
+    height: auto;
+  }
+  .banner-content p{
+    width: auto;
+    line-height: 26px;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+
+.banner-button button {
+    padding: 13px 49px;
+    font-size: 15px;
+    margin-bottom: 30px;}
+    
+.banner .col-md-5{
+  flex: 0 0 auto;
+    width: 35.3333333333%;
+       
+   margin-top: 90px;
+    margin-left: 33px;
+
+    /* margin-left: 130px; */
+   
+}
+.banner-form {
+  width: 400px;
+  height: auto;
+  margin: 20px 40px;
+}
+.card{
+  width: auto;
+}
+.news-btn2{
+  width: auto;
+}
+.name h3{
+  display: block!important;
+  flex-direction: row;
+}
+.feature-3-img {
+    /* display: flex; */
+    /* align-items: center; */
+    /* vertical-align: middle; */
+    width: auto;
+    height: auto;
+}
+.social{
+  width: auto;
+}
+.icon {
+    width: 10px;
+    height: 10px;
+    background-color: #FFF;
+    border-radius: 50%;
+    border: 2px solid #ff8b38;
+    margin-top: 05px;
+    margin-right: 300px;
+}
+.feature3-content h3{
+  font-size: 25px;
+}
+.name h3{
+  font-size: 20px;
+}
+.newsletter{
+  height: auto;
+  width: auto;
+}
+.newsletter .row{
+    padding: 50px 0px!important;
+}
+.newsletter-header h2 {
+    padding: 10px 0px 0px 0px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: .1em;
+}
+
+.contact {
+    width: auto;
+    padding: 20px 0px;
+}
+.footer-center p {
+    display: inline-block!important;
+    margin-left: -10px;}
+  }
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .banner{
+    width: auto;
+    height: auto;
+  }
+  h1{
+    color:#fff!important;
+    background-color: red;
+  }
+  h2{
+    font-size: 20px;
+    text-align: center;
+  }
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .banner{
+    height: auto!important;
+    width: auto!important;
+    padding: 32px 0px;
+  }
+  
+
+.banner-content{
+  height: auto;
+}
+.banner-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+.line {
+    /* width: 10%; */
+    height: 2px;
+    background-color: #494a4c;
+    margin: 20px auto!important;
+}
+.banner-content{
+      height: auto;
+    text-align: center;
+    width: auto;
+}
+.banner-content h2{
+  width: auto!important;
+  font-size: 19px;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  line-height: 30px;
+}
+.banner-content p {
+  width: auto;
+  font-size: 16px;
+  text-align: center;
+  padding: 0px 10px;
+}
+.banner-form{
+  height: auto;
+}
+.card{
+  width: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.social{
+  width: auto;
+  text-align: center;
+}
+.social-header p {
+    color: #82888e;
+    font-size: 15px;
+    text-align: center;
+}
+.feature {
+  width: auto;
+}
+.feature-sec{
+  display: flex;
+   
+    margin-left: 0!important;
+       padding: 2px 30px;
+}
+
+.feature-tab .tab {
+    width: 90px;
+    height: 90px;
+    list-style: none;
+    margin-bottom: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 77px;
+    font-weight: 600;
+    background-color: #333333;
+    color: #fff;}
+
+.feature .col-md-2{
+  padding: 0px 5px!important;
+}
+.feature-tab li{
+  display: inline-block;
+}
+.tab-content{
+  margin-top:18px;
+  margin-bottom: 14px;
+  text-align: center;
+}
+.tab-content h3{
+  text-align: center;
+  font-size: 19px;
+}
+ .tab-content p {
+  text-align: center;
+  font-size: 15px;
+ }
+ .feature-3 .row{
+  flex-direction: column-reverse;
+  text-align: center;
+ }
+
+.line3 {
+    border-bottom: 2px solid #ff8b38;
+    width: 60px;
+    margin: 16px auto;
+}
+.title1{
+  margin: 0px!important;
+}
+.title1 p{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.icon{
+  text-align: center;
+  margin: 17px auto;
+}
+.awsome-header h1{
+  font-size: 27px;
+}
+.table1 {
+    margin: 10px 0px;
+}
+.name h3 {
+    display: inline-block!important;
+    flex-direction: column;
+    text-align: left;
+    padding: 0px 0px -80px 25px;
+    font-size: 14px;
+    font-family: 'open-sans';
+    color: #333333;
+    font-weight: 700;
+    padding-left: 20px;
+    margin: 0px!important;
+}
+.newsletter-header h2 {
+    padding: 100px 0px 0px 0px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: .1em;
+}
+.paragraph2 p{
+  text-align: center;
+  font-size: 16px;
+  margin: 20px 0px;
+  padding: 0px;
+}
+  .news-btn2 {
+    width: auto;
+    margin-top: 10px;
+  }
+
+
+  .contact {
+    width: auto;
+    text-align: center;
+  }
+  .footer{
+    width: auto;
+    text-align: center;
+  }
+    .footer-center i {
+    background-color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 3px 0px;
+    text-align: center;
+    line-height: 24px;
+    margin: 10px auto;
+    vertical-align: middle;
+}
+.second-icon{
+  margin-left: 21px;
+}
+.third-icon{
+      margin-left: -35px; 
+}
+    .footer-center p {
+    display: inline-block!important;
+    margin-left: 6px;
+}
+
+}
